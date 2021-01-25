@@ -7,14 +7,14 @@ import tweepy
 
 # The consumer keys can be found on your application's Details
 # page located at https://dev.twitter.com/apps (under "OAuth settings")
-consumer_key=""
-consumer_secret=""
+consumer_key="6d2aoD5ptPg94kaxI5VuNwFf7"
+consumer_secret="8YVHd0xZruGPuqX3JZEMLTRXdc2VE391GAt2YrBTyKRVKMEbI2"
 
 # The access tokens can be found on your applications's Details
 # page located at https://dev.twitter.com/apps (located
 # under "Your access token")
-access_token=""
-access_token_secret=""
+access_token="1231276706998235136-oUAPoZW4NbcY2EnoKlUfROaP7a0xN0"
+access_token_secret="H3icYpCxPNXty1s9NhUb47STlXUvRqvoCS1MvRPkE35ok"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
